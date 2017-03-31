@@ -1,7 +1,6 @@
 <?php
 $iframeClass = Mage::helper('iyzicocheckoutform')->getIframeClass();
 if ($this->doShowIframe()):
-    echo '<div id="iyzipay-checkout-form" class="' . $iframeClass . '"></div>';
     echo $this->generateCodeSnippet();
 else:
     ?>
